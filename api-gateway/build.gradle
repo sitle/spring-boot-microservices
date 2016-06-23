@@ -81,8 +81,8 @@ distDocker {
 * 2. hostUrl => set the URL used to contact the Docker server. Defaults to http://localhost:2375
 */
 docker {
-    useApi true
-    hostUrl 'http://192.168.59.103:2375'
+    useApi false
+    hostUrl 'tcp://192.168.105.174:2376'
     baseImage = 'java:7'
 }
 

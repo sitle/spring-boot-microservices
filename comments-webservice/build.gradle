@@ -57,8 +57,8 @@ distDocker {
 }
 
 docker {
-    useApi true
-    hostUrl 'http://192.168.59.103:2375'
+    useApi false
+    hostUrl 'tcp://192.168.105.174:2376'
     baseImage = 'java:7'
 }
 
